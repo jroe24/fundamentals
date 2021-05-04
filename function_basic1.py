@@ -34,7 +34,7 @@ print(x) #Will print 5 and 0 for number_of_great_lakes
 #6
 def add(b,c):
     print(b+c)
-print(add(1,2) + add(2,3)) #Will print 8
+print(add(1,2) + add(2,3)) #Will print error
 
 
 #7
