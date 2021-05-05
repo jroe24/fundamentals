@@ -27,9 +27,10 @@ def values_greater_than_second(list1):
     if len(new_list) < 2:
         return False
     else:
+        print(len(new_list))
         return new_list
 
-list2 = [3,5,6,7,8,9]
+list1 = [3,5,6,7,8,9]
 
 y = values_greater_than_second(list2)
 print(y)
